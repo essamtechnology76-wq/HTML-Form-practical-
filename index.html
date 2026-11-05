@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <h1>Single-line Text Entry</h1>
+    please input your name: <input type="text" size="40" maxlength="30"Name="personal - name">
+
+    <h1>Single-line Text Entry with value</h1>
+    Name:<input type="text" name="name" size="35"
+    value="---please type here---">
+
+    <h1>Exercise 1</h1>
+    Age:<input type="text" name="age"size="10"
+    value="35">
+
+    <h1>Activity 2</h1>
+    <h3>Single-line Text Entry Form</h3>
+    Name:<input type="text" name="name"size="35"><br>
+    Email:<input type="text" name="email"size="35"><br>
+    Address 1:<input type="text" name="address1" size="35"><br>
+    Address 2:<input type="text" name="address2" size="35"><br>
+    Address 3:<input type="text" name="address3" size="35"><br>
+    Postcode:<input type="text" name="postcode" size="35"><br>
+
+    <h1>Multi-line Text Entry with textarea</h1>
+    What is your favourite movie?<br>
+    <textarea name="movie-comments" cols="50" rows="5">---please enter your comments here---</textarea>
+
+    <h1>Radio Buttons</h1>
+    Do you like chocolate?
+    <input type="radio" name="chocolate" value="yes">yes
+     <input type="radio" name="chocolate" value="no">No
+<br>
+     Do you agree that the Earth orbits the sun?<br>
+     <input type="radio" name="orbits" value="strongly agree">Strongly agree <br>
+     <input type="radio" name="orbits" value="agree">Agree <br>
+     <input type="radio" name="orbits" value="no opinion">No Opinion <br>
+     <input type="radio" name="orbits" value="disagree">Disagree<br>
+     <input type="radio" name="orbits" value="strongly disagree">Strongly disagree <br>
+      
+     <h1>Check Boxes</h1>
+     <input type="checkbox" name="autos" value="yes">Autos <br>
+     <input type="checkbox" name="business" value="yes">Business & Finance <br>
+     <input type="checkbox" name="movies" value="yes">Movies <br>
+     <input type="checkbox" name="music" value="yes">Music <br>
+     <input type="checkbox" name="computing" value="yes">Computer & Internet <br>
+     <input type="checkbox" name="science" value="yes">Science <br>
+     <input type="checkbox" name="sports" value="yes">Sports <br>
+       
+     <h1>Menu Buttons and Scrolling Lists</h1>
+     Disk drive colour: <br>
+     <select name="colour" size="3" multiple>
+        <option>red</option>
+        <option>blue</option>
+        <option>green</option>
+        <option>yellow</option>
+        <option>pupple</option>
+        <option>orange</option>
+     </select><br>
+
+     <h1>Submit and Reset Buttons</h1>
+     <form method="post" action="mailto:essamtechnology76@gmail.com">
+        <p>We only use fresh ingredients and some pizza toppings may not be available. We will supply three from your list.</p>Please list prepared toppings in order: <br>
+        <textarea name="toppings"  cols="40" rows="5"></textarea><br>pizza size: <br>
+        <input type="radio" name="pizza size" value="small">Small <br>
+        <input type="radio" name="pizza size" value="medium" checked>Medium <br>
+        <input type="radio" name="pizza size" value="large">Large <br>
+        <input type="submit" value="Order the service">
+        <input type="reset" value="Clear to restart">
+     </form>
+
+     
+</body>
+</html>
